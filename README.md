@@ -9,6 +9,7 @@ The goal of this repo is to show consistent practice, problem-solving fundamenta
 ```text
 .
 `-- c++/
+    |-- BackTracking/
     |-- DSA Practice/
     |   |-- Dynamic Programming/
     |   |-- Trie/
@@ -74,6 +75,14 @@ Examples:
 - Reverse string using recursion
 - Palindrome check
 - Say digits problem
+
+### Backtracking
+
+Programs that explore recursive choices, visited-state tracking, and path generation.
+
+Example:
+
+- Rat in a maze
 
 ### Linked List
 
@@ -154,15 +163,15 @@ Most files are standalone C++ programs. You can compile and run any `.cpp` file 
 Example:
 
 ```bash
-g++ "c++/DSA Practice/Trie/basicTrie.cpp" -o basicTrie
-./basicTrie
+g++ "c++/BackTracking/redInAMaze.cpp" -o redInAMaze
+./redInAMaze
 ```
 
 On Windows PowerShell:
 
 ```powershell
-g++ "c++\DSA Practice\Trie\basicTrie.cpp" -o basicTrie.exe
-.\basicTrie.exe
+g++ "c++\BackTracking\redInAMaze.cpp" -o redInAMaze.exe
+.\redInAMaze.exe
 ```
 
 ## Requirements
